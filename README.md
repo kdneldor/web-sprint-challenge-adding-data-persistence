@@ -18,25 +18,25 @@ In this project you will be given a set of requirements and must design a databa
 
 A `project` is what needs to be done. We want to store the following data about a `project`:
 
--   [ ] a unique ID.
--   [ ] a name. This column is required.
--   [ ] a description.
--   [ ] a boolean that indicates if the project has been completed. This column is required, the default value should be `false`.
+-   [ x] a unique ID.
+-   [ x] a name. This column is required.
+-   [ x] a description.
+-   [ x] a boolean that indicates if the project has been completed. This column is required, the default value should be `false`.
 
 A `resource` is anything needed to complete a project, some examples are: a person, a tool, a meeting room or a software license. We want to store the following data about a `resource`:
 
--   [ ] a unique ID.
--   [ ] a name. This column is required.
--   [ ] a description.
+-   [ x] a unique ID.
+-   [ x] a name. This column is required.
+-   [ x] a description.
 
 The database should not allow resources with duplicate names.
 
 A `task` is one of the steps needed to complete the project. We want to store the following data about an `task`.
 
--   [ ] a unique ID.
--   [ ] a description of what needs to be done. This column is required.
--   [ ] a notes column to add additional information.
--   [ ] a boolean that indicates if the task has been completed. This column cannot be NULL, the default value should be `false`.
+-   [ x] a unique ID.
+-   [ x] a description of what needs to be done. This column is required.
+-   [ x] a notes column to add additional information.
+-   [ x] a boolean that indicates if the task has been completed. This column cannot be NULL, the default value should be `false`.
 
 ### Commits
 
@@ -48,11 +48,19 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Explain the difference between `Relational Databases` and `SQL`.
 
+`Relational Databases are data sets that are stored in a tabular format, making tables, SQL is the language used to query data from those tables.`
+
 2. Why do tables need a `primary key`?
+
+`To help make the data unique, preventing data anomalies.`
 
 3. What is the name given to a table column that references the primary key on another table.
 
+`Foreign key.`
+
 4. What do we need in order to have a _many to many_ relationship between two tables.
+
+`We need to have a data set that makes sense for a many to many relationship to exist. One good example is if we had an author table and books table. There can be many authors, as well as many books from those authors. ` 
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
@@ -60,12 +68,12 @@ You are expected to be able to answer questions in these areas. Your responses c
 
 ### Task 1: Project Set Up
 
--   [ ] Create a forked copy of this project
--   [ ] Add your team lead as collaborator on Github
--   [ ] Clone your OWN version of the repository (Not Lambda's by mistake!)
--   [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
--   [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
--   [ ] Push commits: git push origin `<firstName-lastName>`
+-   [ x] Create a forked copy of this project
+-   [ x] Add your team lead as collaborator on Github
+-   [ x] Clone your OWN version of the repository (Not Lambda's by mistake!)
+-   [ x] Create a new branch: git checkout -b `<firstName-lastName>`.
+-   [ x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
+-   [ x] Push commits: git push origin `<firstName-lastName>`
 
 ### Task 2: Project Requirements
 
